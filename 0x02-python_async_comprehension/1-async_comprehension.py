@@ -11,4 +11,4 @@ async_generator = using('0-async_generator').async_generator
 async def async_comprehension() -> List[float]:
     '''Creating the list.
     '''
-    return [nmb async for nmb in async_generator()]
+    return [random async for random in async_generator()]
