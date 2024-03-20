@@ -1,25 +1,4 @@
 #!/usr/bin/env python3
-'''Task 2 documentation.
-'''
-import asyncio
-import time
-from importlib import import_m
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#!/usr/bin/env python3
 """ doc task 2 """
 import asyncio
 import time
