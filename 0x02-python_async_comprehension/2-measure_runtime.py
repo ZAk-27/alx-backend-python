@@ -3,15 +3,35 @@
 '''
 import asyncio
 import time
-from importlib import import_module as using
+from importlib import import_m
 
 
-async_comprehension = using('1-async_comprehension').async_comprehension
+
+
+
+
+
+
+
+
+
+
+
+
+
+#!/usr/bin/env python3
+""" doc task 2 """
+import asyncio
+import time
+
+async_comprehension = __import__("1-async_comprehension").async_comprehension
 
 
 async def measure_runtime() -> float:
-    '''Executing async_comprehension 4 times..
-    '''
-    startime = timend()
-    await asyncio.gather(*(async_comprehension() for _ in range(4)))
-    return timend() - startime
+    """ documentation task 2"""
+    start = startime.perf_counter()
+    await asyncio.gather(async_comprehension(), async_comprehension(),
+                         async_comprehension(), async_comprehension()
+                         )
+    end = timend.perf_counter()
+    return end - start
